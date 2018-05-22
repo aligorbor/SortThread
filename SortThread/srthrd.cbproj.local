@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2018.05.21 13:45:25.834,=C:\develop\CPPBuilder\SortThread\SortThread\Unit1.cpp</Transaction>
+    <Transaction>2018.05.21 13:45:47.337,C:\develop\CPPBuilder\SortThread\SortThread\UnitThread.h=C:\develop\CPPBuilder\SortThread\SortThread\Unit1.h</Transaction>
+    <Transaction>2018.05.21 13:45:47.337,C:\develop\CPPBuilder\SortThread\SortThread\UnitThread.cpp=C:\develop\CPPBuilder\SortThread\SortThread\Unit1.cpp</Transaction>
+    <Transaction>2018.05.21 13:50:19.305,C:\develop\CPPBuilder\SortThread\SortThread\srtthrd.cbproj=C:\develop\CPPBuilder\SortThread\SortThread\sdiapp.cbproj</Transaction>
+    <Transaction>2018.05.21 13:50:56.436,C:\develop\CPPBuilder\SortThread\SortThread\srtthrdMain.h=C:\develop\CPPBuilder\SortThread\SortThread\SDIMAIN.h</Transaction>
+    <Transaction>2018.05.21 13:50:56.436,C:\develop\CPPBuilder\SortThread\SortThread\srtthrdMain.dfm=C:\develop\CPPBuilder\SortThread\SortThread\SDIMAIN.dfm</Transaction>
+    <Transaction>2018.05.21 13:50:56.436,C:\develop\CPPBuilder\SortThread\SortThread\srtthrdMain.CPP=C:\develop\CPPBuilder\SortThread\SortThread\SDIMAIN.CPP</Transaction>
+    <Transaction>2018.05.21 13:51:54.834,C:\develop\CPPBuilder\SortThread\SortThread\srthrd.cbproj=C:\develop\CPPBuilder\SortThread\SortThread\srtthrd.cbproj</Transaction>
+    <Transaction>2018.05.21 13:52:40.787,C:\develop\CPPBuilder\SortThread\SortThread\thrdUnit.h=C:\develop\CPPBuilder\SortThread\SortThread\UnitThread.h</Transaction>
+    <Transaction>2018.05.21 13:52:40.787,C:\develop\CPPBuilder\SortThread\SortThread\thrdUnit.cpp=C:\develop\CPPBuilder\SortThread\SortThread\UnitThread.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,43 @@
+//---------------------------------------------------------------------------
+
+#ifndef thrdUnitH
+#define thrdUnitH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.ExtCtrls.hpp>
+//---------------------------------------------------------------------------
+class TMyThread : public TThread
+{
+protected:
+	void __fastcall Execute();
+public:
+	__fastcall TMyThread(bool CreateSuspended);
+};
+//---------------------------------------------------------------------------
+
+#define ARRAY_SIZE 512
+typedef int TSortArray[ARRAY_SIZE];
+
+//---------------------------------------------------------------------------
+
+class TSortThread: public TThread
+{
+__published:	// IDE-managed Components
+private: // User declarations
+	TPaintBox *FBox;
+	TSortArray FSortArray;
+	int FSize;
+	int FA; int FB; int FI; int FJ;
+	void __fastcall DoVisualSwap();
+	void __fastcall WaitBeforePaint();
+	void __fastcall ConflictMsg();
+protected:  // User declarations
+	void __fastcall Execute();
+	void __fastcall VisualSwap(int A, int B, int I, int J);
+	virtual void __fastcall Sort(TSortArray &A);
+public:  // User declarations
+	__fastcall TSortThread(TPaintBox *Box, TSortArray &SortArray, bool CreateSuspended);
+};
+//---------------------------------------------------------------------------
+
+#endif

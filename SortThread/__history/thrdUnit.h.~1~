@@ -1,0 +1,16 @@
+//---------------------------------------------------------------------------
+
+#ifndef UnitThreadH
+#define UnitThreadH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+//---------------------------------------------------------------------------
+class TMyThread : public TThread
+{
+protected:
+	void __fastcall Execute();
+public:
+	__fastcall TMyThread(bool CreateSuspended);
+};
+//---------------------------------------------------------------------------
+#endif
